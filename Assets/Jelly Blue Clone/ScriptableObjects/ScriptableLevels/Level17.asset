@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605b1b2f6ca1203419582e3eca81e979, type: 3}
+  m_Name: Level17
+  m_EditorClassIdentifier: 
+  Move: 60
+  ScoreRequest: 110
+  ColorSpawnRate: 80
+  bubbles:
+  - pos: {x: -3, y: 1}
+    size: 1
+    numb: 3
+    numColor: 1
+    colorRate: 1
+  - pos: {x: 3.2, y: 0.5}
+    size: 2
+    numb: 4
+    numColor: 2
+    colorRate: 2
+  - pos: {x: 0, y: 1}
+    size: 2
+    numb: 5
+    numColor: 1
+    colorRate: 1
+  - pos: {x: -3.3, y: -1.6}
+    size: 3
+    numb: 4
+    numColor: 2
+    colorRate: 1
+  icePos:
+  - {x: -2, y: -5.5}
+  - {x: -0.7, y: -5.5}
+  - {x: 0.6, y: -5.5}
+  - {x: 1.8, y: -5.5}
+  - {x: 3.2, y: -5.2}
+  - {x: 0.36, y: -4.28}
+  - {x: -0.5, y: -3.1}
